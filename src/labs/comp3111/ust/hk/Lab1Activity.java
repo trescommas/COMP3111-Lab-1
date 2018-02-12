@@ -15,13 +15,11 @@ public class Lab1Activity {
 			if(item < min) {
 				min = item;
 			}
-		}
-		
-		for(int item: arr) {
 			if(item > min) {
 				max = item;
 			}
 		}
+		
 		
 		System.out.print("Min = " + min + "; ");
 		System.out.println("Max = " + max);
